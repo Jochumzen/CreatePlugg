@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PopUpWindow.ascx.cs" Inherits="Christoc.Modules.CreatePlugg3.PopUpWindow" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PopUpWindow.ascx.cs" Inherits="Plugghest.Modules.CreatePlugg3.PopUpWindow" %>
 
 
 

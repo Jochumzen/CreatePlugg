@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreatePlugg.aspx.cs" Inherits="Christoc.Modules.CreatePlugg3.CreatePlugg" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreatePlugg.aspx.cs" Inherits="Plugghest.Modules.CreatePlugg3.CreatePlugg" %>
 
 <!DOCTYPE html>
 

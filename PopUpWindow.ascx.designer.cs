@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Christoc.Modules.CreatePlugg3 {
+namespace Plugghest.Modules.CreatePlugg3 {
     
     
     public partial class PopUpWindow {

@@ -2,12 +2,13 @@
 <%@ Register TagPrefix="dnn" TagName="label" Src="~/controls/LabelControl.ascx" %>
 <%--<a href="javascript:dnnModal.show('<%#DotNetNuke.Common.Globals.NavigateURL(23, "", new string[] { "edit=1" , "language=1"  })%>',false,550,950,true)" class="">Create Plugg</a>--%>
 <%--<a href="javascript:dnnModal.show('CreatePlugg.aspx?popUp=true',false,550,950,false)" class="">Create Plugg</a>--%>
-<script src="http://dnndev.me/Script/bPopup.js"></script>
+<%--<script src="http://dnndev.me/Script/bPopup.js"></script>--%>
+<script src="/DesktopModules/CreatePlugg3/Script/bPopup.js"></script>
 <script>
     $(document).ready(function () {
       $('#element_to_pop').hide();
     });
-       
+
   $(function ($) {      
        //  DOM Ready
         $(function () {
@@ -27,7 +28,10 @@
 
         });
 
-    })(jQuery);
+  })(jQuery);
+
+ 
+
 </script>
 <style>
     .dnnLabel

@@ -10,7 +10,7 @@ using DotNetNuke.UI.Utilities;
 using Plugghest.Base2;
 using System.Collections.Generic;
 
-namespace Christoc.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg3
 {
     public partial class CreatePlugg : System.Web.UI.Page
     {

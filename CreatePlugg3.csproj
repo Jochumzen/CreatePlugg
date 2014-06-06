@@ -119,6 +119,7 @@
     <Content Include="module.css" />
     <Content Include="PopUpWindow.ascx" />
     <Content Include="ReleaseNotes.txt" />
+    <Content Include="Script\bPopup.js" />
     <Content Include="Settings.ascx" />
     <Content Include="View.ascx" />
   </ItemGroup>
