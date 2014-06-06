@@ -15,12 +15,12 @@ using System.Collections.Generic;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Search;
 
-namespace Plugghest.Modules.CreatePlugg3.Components
+namespace Plugghest.Modules.CreatePlugg.Components
 {
 
     /// -----------------------------------------------------------------------------
     /// <summary>
-    /// The Controller class for CreatePlugg3
+    /// The Controller class for CreatePlugg
     /// 
     /// The FeatureController class is defined as the BusinessController in the manifest file (.dnn)
     /// DotNetNuke will poll this class to find out which Interfaces the class implements. 
@@ -53,18 +53,18 @@ namespace Plugghest.Modules.CreatePlugg3.Components
         //{
         //string strXML = "";
 
-        //List<CreatePlugg3Info> colCreatePlugg3s = GetCreatePlugg3s(ModuleID);
-        //if (colCreatePlugg3s.Count != 0)
+        //List<CreatePluggInfo> colCreatePluggs = GetCreatePluggs(ModuleID);
+        //if (colCreatePluggs.Count != 0)
         //{
-        //    strXML += "<CreatePlugg3s>";
+        //    strXML += "<CreatePluggs>";
 
-        //    foreach (CreatePlugg3Info objCreatePlugg3 in colCreatePlugg3s)
+        //    foreach (CreatePluggInfo objCreatePlugg in colCreatePluggs)
         //    {
-        //        strXML += "<CreatePlugg3>";
-        //        strXML += "<content>" + DotNetNuke.Common.Utilities.XmlUtils.XMLEncode(objCreatePlugg3.Content) + "</content>";
-        //        strXML += "</CreatePlugg3>";
+        //        strXML += "<CreatePlugg>";
+        //        strXML += "<content>" + DotNetNuke.Common.Utilities.XmlUtils.XMLEncode(objCreatePlugg.Content) + "</content>";
+        //        strXML += "</CreatePlugg>";
         //    }
-        //    strXML += "</CreatePlugg3s>";
+        //    strXML += "</CreatePluggs>";
         //}
 
         //return strXML;
@@ -83,14 +83,14 @@ namespace Plugghest.Modules.CreatePlugg3.Components
         /// -----------------------------------------------------------------------------
         //public void ImportModule(int ModuleID, string Content, string Version, int UserID)
         //{
-        //XmlNode xmlCreatePlugg3s = DotNetNuke.Common.Globals.GetContent(Content, "CreatePlugg3s");
-        //foreach (XmlNode xmlCreatePlugg3 in xmlCreatePlugg3s.SelectNodes("CreatePlugg3"))
+        //XmlNode xmlCreatePluggs = DotNetNuke.Common.Globals.GetContent(Content, "CreatePluggs");
+        //foreach (XmlNode xmlCreatePlugg in xmlCreatePluggs.SelectNodes("CreatePlugg"))
         //{
-        //    CreatePlugg3Info objCreatePlugg3 = new CreatePlugg3Info();
-        //    objCreatePlugg3.ModuleId = ModuleID;
-        //    objCreatePlugg3.Content = xmlCreatePlugg3.SelectSingleNode("content").InnerText;
-        //    objCreatePlugg3.CreatedByUser = UserID;
-        //    AddCreatePlugg3(objCreatePlugg3);
+        //    CreatePluggInfo objCreatePlugg = new CreatePluggInfo();
+        //    objCreatePlugg.ModuleId = ModuleID;
+        //    objCreatePlugg.Content = xmlCreatePlugg.SelectSingleNode("content").InnerText;
+        //    objCreatePlugg.CreatedByUser = UserID;
+        //    AddCreatePlugg(objCreatePlugg);
         //}
 
         //	throw new System.NotImplementedException("The method or operation is not implemented.");
@@ -106,11 +106,11 @@ namespace Plugghest.Modules.CreatePlugg3.Components
         //{
         //SearchItemInfoCollection SearchItemCollection = new SearchItemInfoCollection();
 
-        //List<CreatePlugg3Info> colCreatePlugg3s = GetCreatePlugg3s(ModInfo.ModuleID);
+        //List<CreatePluggInfo> colCreatePluggs = GetCreatePluggs(ModInfo.ModuleID);
 
-        //foreach (CreatePlugg3Info objCreatePlugg3 in colCreatePlugg3s)
+        //foreach (CreatePluggInfo objCreatePlugg in colCreatePluggs)
         //{
-        //    SearchItemInfo SearchItem = new SearchItemInfo(ModInfo.ModuleTitle, objCreatePlugg3.Content, objCreatePlugg3.CreatedByUser, objCreatePlugg3.CreatedDate, ModInfo.ModuleID, objCreatePlugg3.ItemId.ToString(), objCreatePlugg3.Content, "ItemId=" + objCreatePlugg3.ItemId.ToString());
+        //    SearchItemInfo SearchItem = new SearchItemInfo(ModInfo.ModuleTitle, objCreatePlugg.Content, objCreatePlugg.CreatedByUser, objCreatePlugg.CreatedDate, ModInfo.ModuleID, objCreatePlugg.ItemId.ToString(), objCreatePlugg.Content, "ItemId=" + objCreatePlugg.ItemId.ToString());
         //    SearchItemCollection.Add(SearchItem);
         //}
 

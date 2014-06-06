@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.UI.WebControls;
-using Plugghest.Modules.CreatePlugg3.Components;
+using Plugghest.Modules.CreatePlugg.Components;
 using DotNetNuke.Security;
 using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
@@ -10,7 +10,7 @@ using DotNetNuke.UI.Utilities;
 using Plugghest.Base2;
 using System.Collections.Generic;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
     public partial class CreatePlugg : System.Web.UI.Page
     {

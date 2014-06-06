@@ -12,9 +12,9 @@
 
 using DotNetNuke.Entities.Modules;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
-    public class CreatePlugg3ModuleSettingsBase : ModuleSettingsBase
+    public class CreatePluggModuleSettingsBase : ModuleSettingsBase
     {
     }
 }

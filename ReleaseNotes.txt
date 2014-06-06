@@ -1,4 +1,4 @@
-﻿<h3>CreatePlugg3</h3>
+﻿<h3>CreatePlugg</h3>
 <p class="Contributor">
 	Plugghest.com <br />
 	<a href="mailto:modules@Plugghest.com">modules@Plugghest.com</a><br />
@@ -6,7 +6,7 @@
 </p>
 <hr/>
 <div class="License">
-	<h3>About the CreatePlugg3</h3>
+	<h3>About the CreatePlugg</h3>
 	<p class="Owner">
 		<b>Version CHANGEME</b><br /><br />
 	</p>

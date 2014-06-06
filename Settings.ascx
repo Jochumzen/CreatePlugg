@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Settings.ascx.cs" Inherits="Plugghest.Modules.CreatePlugg3.Settings" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Settings.ascx.cs" Inherits="Plugghest.Modules.CreatePlugg.Settings" %>
 
 
 <!-- uncomment the code below to start using the DNN Form pattern to create and update settings -->

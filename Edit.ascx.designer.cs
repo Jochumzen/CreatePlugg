@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
 
 

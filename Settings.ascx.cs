@@ -14,7 +14,7 @@ using System;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Exceptions;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
     /// -----------------------------------------------------------------------------
     /// <summary>
@@ -32,11 +32,11 @@ namespace Plugghest.Modules.CreatePlugg3
     /// 
     /// Below we have some examples of how to access these settings but you will need to uncomment to use.
     /// 
-    /// Because the control inherits from CreatePlugg3SettingsBase you have access to any custom properties
+    /// Because the control inherits from CreatePluggSettingsBase you have access to any custom properties
     /// defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
     /// </summary>
     /// -----------------------------------------------------------------------------
-    public partial class Settings : CreatePlugg3ModuleSettingsBase
+    public partial class Settings : CreatePluggModuleSettingsBase
     {
         #region Base Method Implementations
 

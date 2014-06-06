@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
     public partial class PopUpWindow : System.Web.UI.UserControl
     {

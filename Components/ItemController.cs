@@ -12,7 +12,7 @@
 using System.Collections.Generic;
 using DotNetNuke.Data;
 
-namespace Plugghest.Modules.CreatePlugg3.Components
+namespace Plugghest.Modules.CreatePlugg.Components
 {
     class ItemController
     {

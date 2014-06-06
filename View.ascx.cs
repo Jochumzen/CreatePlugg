@@ -12,7 +12,7 @@
 
 using System;
 using System.Web.UI.WebControls;
-using Plugghest.Modules.CreatePlugg3.Components;
+using Plugghest.Modules.CreatePlugg.Components;
 using DotNetNuke.Security;
 using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
@@ -22,7 +22,7 @@ using DotNetNuke.UI.Utilities;
 using Plugghest.Base2;
 using System.Collections.Generic;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
     /// -----------------------------------------------------------------------------
     /// <summary>
@@ -32,12 +32,12 @@ namespace Plugghest.Modules.CreatePlugg3
     /// 
     /// View may be the only control you have in your project depending on the complexity of your module
     /// 
-    /// Because the control inherits from CreatePlugg3ModuleBase you have access to any custom properties
+    /// Because the control inherits from CreatePluggModuleBase you have access to any custom properties
     /// defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
     /// 
     /// </summary>
     /// -----------------------------------------------------------------------------
-    public partial class View : CreatePlugg3ModuleBase, IActionable
+    public partial class View : CreatePluggModuleBase, IActionable
     {
         
         protected void Page_Load(object sender, EventArgs e)

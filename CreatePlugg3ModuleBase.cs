@@ -13,9 +13,9 @@
 using System;
 using DotNetNuke.Entities.Modules;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
-    public class CreatePlugg3ModuleBase : PortalModuleBase
+    public class CreatePluggModuleBase : PortalModuleBase
     {
         public int ItemId
         {

@@ -12,10 +12,10 @@
 
 using System;
 using DotNetNuke.Entities.Users;
-using Plugghest.Modules.CreatePlugg3.Components;
+using Plugghest.Modules.CreatePlugg.Components;
 using DotNetNuke.Services.Exceptions;
 
-namespace Plugghest.Modules.CreatePlugg3
+namespace Plugghest.Modules.CreatePlugg
 {
     /// -----------------------------------------------------------------------------
     /// <summary>   
@@ -24,12 +24,12 @@ namespace Plugghest.Modules.CreatePlugg3
     /// Typically your edit control would be used to create new content, or edit existing content within your module.
     /// The ControlKey for this control is "Edit", and is defined in the manifest (.dnn) file.
     /// 
-    /// Because the control inherits from CreatePlugg3ModuleBase you have access to any custom properties
+    /// Because the control inherits from CreatePluggModuleBase you have access to any custom properties
     /// defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
     /// 
     /// </summary>
     /// -----------------------------------------------------------------------------
-    public partial class Edit : CreatePlugg3ModuleBase
+    public partial class Edit : CreatePluggModuleBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {

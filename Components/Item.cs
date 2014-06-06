@@ -16,9 +16,9 @@ using DotNetNuke.Common.Utilities;
 using DotNetNuke.ComponentModel.DataAnnotations;
 using DotNetNuke.Entities.Content;
 
-namespace Plugghest.Modules.CreatePlugg3.Components
+namespace Plugghest.Modules.CreatePlugg.Components
 {
-    [TableName("CreatePlugg3_Items")]
+    [TableName("CreatePlugg_Items")]
     //setup the primary key for table
     [PrimaryKey("ItemId", AutoIncrement = true)]
     //configure caching using PetaPoco
